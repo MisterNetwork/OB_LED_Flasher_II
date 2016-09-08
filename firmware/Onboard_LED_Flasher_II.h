@@ -91,7 +91,7 @@ void LED_FF_Blinker(int countb){
 
 //-----------------------  Red flash x3   -----------------------
 
-void LED_Red_Flash(int count) {
+void LED_Red_Flash(int count=3) {
 
         lred = 255;
         lgreen = 0;
@@ -104,7 +104,7 @@ void LED_Red_Flash(int count) {
          
 //-----------------------  Red Fast Flash x3   -----------------------
 
-void LED_Red_FFlash(int count) {
+void LED_Red_FFlash(int count=3) {
 
         lred = 255;
         lgreen = 0;
@@ -115,7 +115,7 @@ void LED_Red_FFlash(int count) {
 
 //-----------------------  Green flash x3   -----------------------
 
-void LED_Green_Flash(int count) {
+void LED_Green_Flash(int count=3) {
 
         lred = 0;
         lgreen = 255;
@@ -126,7 +126,7 @@ void LED_Green_Flash(int count) {
         
 //-----------------------  Green Fast Flash x3   -----------------------
         
-void LED_Green_FFlash(int count) {
+void LED_Green_FFlash(int count=3) {
 
         lred = 0;
         lgreen = 255;
@@ -137,7 +137,7 @@ void LED_Green_FFlash(int count) {
 
 //-----------------------  Blue flash x3   -----------------------
 
-void LED_Blue_Flash(int count) {
+void LED_Blue_Flash(int count=3) {
 
         lred = 0;
         lgreen = 0;
@@ -148,7 +148,7 @@ void LED_Blue_Flash(int count) {
         
 //----------------------- Blue Fast Flash x3   -----------------------
         
-void LED_Blue_FFlash(int count) {
+void LED_Blue_FFlash(int count=3) {
 
         lred = 0;
         lgreen = 0;
@@ -159,7 +159,7 @@ void LED_Blue_FFlash(int count) {
 
 //-----------------------  Yellow flash x3   -----------------------
  
-void LED_Yellow_Flash(int count) {
+void LED_Yellow_Flash(int count=3) {
 
         lred = 255;
         lgreen = 255;
@@ -170,7 +170,7 @@ void LED_Yellow_Flash(int count) {
         
 //-----------------------  Yellow Fast Flash x3   -----------------------
         
-void LED_Yellow_FFlash(int count) {
+void LED_Yellow_FFlash(int count=3) {
 
         lred = 255;
         lgreen = 255;
@@ -182,7 +182,7 @@ void LED_Yellow_FFlash(int count) {
 
 //-----------------------  Orange flash x3   -----------------------
  
-void LED_Orange_Flash(int count) {
+void LED_Orange_Flash(int count=3) {
 
         lred = 255;
         lgreen = 100;
@@ -193,7 +193,7 @@ void LED_Orange_Flash(int count) {
         
 //-----------------------  Orange Fast Flash x3   -----------------------
         
-void LED_Orange_FFlash(int count) {
+void LED_Orange_FFlash(int count=3) {
 
         lred = 255;
         lgreen = 100;
@@ -206,7 +206,7 @@ void LED_Orange_FFlash(int count) {
 
 //-----------------------  Cyan flash x3   -----------------------
  
-void LED_Cyan_Flash(int count) {
+void LED_Cyan_Flash(int count=3) {
 
         lred = 0;
         lgreen = 255;
@@ -217,7 +217,7 @@ void LED_Cyan_Flash(int count) {
         
 //-----------------------  Cyan Fast Flash x3   -----------------------
         
-void LED_Cyan_FFlash(int count) {
+void LED_Cyan_FFlash(int count=3) {
 
         lred = 0;
         lgreen = 255;
@@ -228,7 +228,7 @@ void LED_Cyan_FFlash(int count) {
 
 //-----------------------  Magenta flash x3   -----------------------
  
-void LED_Magenta_Flash(int count) {
+void LED_Magenta_Flash(int count=3) {
 
         lred = 255;
         lgreen = 0;
@@ -239,7 +239,7 @@ void LED_Magenta_Flash(int count) {
         
 //-----------------------  Magenta Fast Flash x3   -----------------------
         
-void LED_Magenta_FFlash(int count) {
+void LED_Magenta_FFlash(int count=3) {
 
         lred = 255;
         lgreen = 0;
@@ -250,7 +250,7 @@ void LED_Magenta_FFlash(int count) {
 
 //-----------------------  White flash x3   -----------------------
  
-void LED_White_Flash(int count) {
+void LED_White_Flash(int count=3) {
 
         lred = 200;
         lgreen = 255;
@@ -261,7 +261,7 @@ void LED_White_Flash(int count) {
         
 //-----------------------  White Fast Flash x3   -----------------------
         
-void LED_White_FFlash(int count) {
+void LED_White_FFlash(int count=3) {
 
         lred = 200;
         lgreen = 255;
@@ -272,7 +272,7 @@ void LED_White_FFlash(int count) {
 
 //----------------------- Rainbow Flash x3   -----------------------
 
-void LED_Rainbow_Flash(int count) {
+void LED_Rainbow_Flash(int count=3) {
 
         RGB.control(true);   // take control of the RGB LED        
 
